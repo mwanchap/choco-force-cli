@@ -6,7 +6,7 @@
     <packageSourceUrl>https://chocolatey.org/packages/force-cli</packageSourceUrl>
     <owners>mwanchap</owners>
     <title>Force.com CLI</title>
-    <authors>https://github.com/ForceCLI/force/graphs/contributors</authors>
+    <authors>Christian G. Warden, Dave Carroll</authors>
     <projectUrl>https://force-cli.heroku.com/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mwanchap/choco-force-cli/master/icon.png</iconUrl>
     <licenseUrl>https://github.com/ForceCLI/force/blob/master/LICENSE</licenseUrl>
