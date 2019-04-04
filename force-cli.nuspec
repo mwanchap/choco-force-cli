@@ -3,7 +3,7 @@
   <metadata>
     <id>force-cli</id>
     <version>0.26.0</version>
-    <packageSourceUrl>https://chocolatey.org/packages/force-cli</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mwanchap/choco-force-cli</packageSourceUrl>
     <owners>mwanchap</owners>
     <title>Force.com CLI</title>
     <authors>Christian G. Warden, Dave Carroll</authors>
