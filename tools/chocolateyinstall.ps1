@@ -1,16 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/ForceCLI/force/releases/download/v0.26.0/force_windows_386.exe'
-$url64      = 'https://github.com/ForceCLI/force/releases/download/v0.26.0/force_windows_amd64.exe'
+$url        = 'https://github.com/ForceCLI/force/releases/download/v0.26.9/force_windows_386.exe'
+$url64      = 'https://github.com/ForceCLI/force/releases/download/v0.26.9/force_windows_amd64.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   FileFullPath  = "$toolsDir\force.exe"
   url           = $url
   url64bit      = $url64
-  checksum      = '9799C2208A4C41EC1759F7C086FBE6591E44CD81EA189758DBB955C72BF988AB'
+  checksum      = '1A493A279D8FD358E159266A1A7AE3EFE060A547DEE75D1434AEC76AD7B579CA'
   checksumType  = 'sha256'
-  checksum64    = 'C823399A474BDB68ED65A035C0890001E37D3A537E9B5FAC4052F380C75DD963'
+  checksum64    = 'EDF118A2585EA84B7ADCCBFF50F9E587B519425F72E0966D65C177B569B0EC42'
   checksumType64= 'sha256'
 
 }
