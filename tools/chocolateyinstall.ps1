@@ -1,18 +1,17 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/ForceCLI/force/releases/download/v0.26.9/force_windows_386.exe'
-$url64      = 'https://github.com/ForceCLI/force/releases/download/v0.26.9/force_windows_amd64.exe'
+$url        = 'https://github.com/ForceCLI/force/releases/download/v0.29.0/force_windows_386.exe'
+$url64      = 'https://github.com/ForceCLI/force/releases/download/v0.29.0/force_windows_amd64.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   FileFullPath  = "$toolsDir\force.exe"
   url           = $url
   url64bit      = $url64
-  checksum      = '1A493A279D8FD358E159266A1A7AE3EFE060A547DEE75D1434AEC76AD7B579CA'
+  checksum      = '7461BB035CF74DAC97F5F50D3BC4FEFB03506902A3FD3FA5B6B2AFF1A9766C93'
   checksumType  = 'sha256'
-  checksum64    = 'EDF118A2585EA84B7ADCCBFF50F9E587B519425F72E0966D65C177B569B0EC42'
+  checksum64    = 'F5C6F2A8E31F1FC09B71E6B142F8435B1C07A6DEDFC550A28F95E68147DD581B'
   checksumType64= 'sha256'
-
 }
 
 Get-ChocolateyWebFile @packageArgs
