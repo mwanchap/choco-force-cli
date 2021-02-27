@@ -7,7 +7,7 @@
     <owners>mwanchap</owners>
     <title>Force.com CLI</title>
     <authors>Christian G. Warden, Dave Carroll</authors>
-    <projectUrl>https://force-cli.heroku.com/</projectUrl>
+    <projectUrl>https://force-cli.herokuapp.com</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/mwanchap/choco-force-cli/master/icon.png</iconUrl>
     <licenseUrl>https://github.com/ForceCLI/force/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
